@@ -1315,6 +1315,9 @@
     (uuid e0406e96-4f4f-472d-8ff4-956ac8a1e151)
   )
 
+  (no_connect (at 250.19 50.8) (uuid 7223ce2b-4ead-469a-9431-30ae60e3f6a6))
+  (no_connect (at 250.19 53.34) (uuid 7223ce2b-4ead-469a-9431-30ae60e3f6a6))
+
   (wire (pts (xy 116.84 58.42) (xy 137.16 58.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0133ac9f-5d72-42ff-8fb6-1d4f6a6ae2a4)
