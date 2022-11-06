@@ -1316,7 +1316,7 @@
   )
 
   (no_connect (at 250.19 50.8) (uuid 7223ce2b-4ead-469a-9431-30ae60e3f6a6))
-  (no_connect (at 250.19 53.34) (uuid 7223ce2b-4ead-469a-9431-30ae60e3f6a6))
+  (no_connect (at 250.19 53.34) (uuid 7223ce2b-4ead-469a-9431-30ae60e3f6a7))
 
   (wire (pts (xy 116.84 58.42) (xy 137.16 58.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
