@@ -1330,7 +1330,7 @@
   (symbol (lib_id "Device:C") (at 106.68 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0bf5f4dd-88c5-4f7b-b1b3-354b095af0b2)
-    (property "Reference" "C?" (id 0) (at 110.49 81.2799 0)
+    (property "Reference" "C9" (id 0) (at 110.49 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (id 1) (at 110.49 83.8199 0)
@@ -1568,7 +1568,7 @@
   (symbol (lib_id "power:GND") (at 106.68 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 74bcc9d8-e9ac-4aae-9957-6d86ffae2207)
-    (property "Reference" "#PWR?" (id 0) (at 106.68 92.71 0)
+    (property "Reference" "#PWR0103" (id 0) (at 106.68 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 106.68 91.44 0))
@@ -1648,7 +1648,7 @@
   (symbol (lib_id "power:GND") (at 62.23 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8c375b8b-2481-44c3-b896-1da9ebcb5e72)
-    (property "Reference" "#PWR?" (id 0) (at 62.23 104.14 0)
+    (property "Reference" "#PWR0102" (id 0) (at 62.23 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 62.23 102.87 0))
@@ -1732,7 +1732,7 @@
   (symbol (lib_id "Device:C") (at 62.23 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c204358c-67f2-4de0-8610-7251e391bcca)
-    (property "Reference" "C?" (id 0) (at 66.04 91.4399 0)
+    (property "Reference" "C8" (id 0) (at 66.04 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 66.04 93.9799 0)
@@ -2073,11 +2073,11 @@
     (path "/c79607d2-1743-44c4-977e-407614af2699/d9b1cf69-a127-4450-8a1e-d6b33bd3d1e3"
       (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/74bcc9d8-e9ac-4aae-9957-6d86ffae2207"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/8c375b8b-2481-44c3-b896-1da9ebcb5e72"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/74bcc9d8-e9ac-4aae-9957-6d86ffae2207"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/ca8ec33b-f640-4dee-bfae-05e92864f688"
       (reference "C1") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -2100,11 +2100,11 @@
     (path "/c79607d2-1743-44c4-977e-407614af2699/e88e8b40-aed3-4e87-a673-758cddbcc22a"
       (reference "C7") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/0bf5f4dd-88c5-4f7b-b1b3-354b095af0b2"
-      (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
     (path "/c204358c-67f2-4de0-8610-7251e391bcca"
-      (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C8") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/0bf5f4dd-88c5-4f7b-b1b3-354b095af0b2"
+      (reference "C9") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/c11ac4d5-9454-4a04-af9a-9159635e486a/5a7f9c5d-c505-4a22-94e2-c776ce80000e"
       (reference "D1") (unit 1) (value "WS2813B") (footprint "Library:LED_WS2813_hand")
